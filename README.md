@@ -10,25 +10,26 @@ The background color of the entire page (<body>) is set to a light blue color (#
 
   3. Modals:
 There are two modals: one for adding a new book (#addBookModal) and another for editing an existing book (#editBookModal).
-Both modals have form elements for entering book details such as title, authors, publisher, and status.
+Both modals have form elements for entering book details such as title, authors, publisher, and status. They are located in
+create_book_modal.blade and edit_book_model.blade.php.
 
-  4. Book Display:
+  5. Book Display:
 Book information is displayed in cards within frames.
 Each card includes the book's title, authors, publisher, and status.
 There are "Edit" and "Remove" buttons to modify or delete the corresponding book.
 
-  5. AJAX Requests:
+  6. AJAX Requests:
 AJAX requests are used to asynchronously communicate with a server-side API.
 The loadBooks, addBook, updateBook, and deleteBook functions handle data retrieval, addition, modification, and deletion,
 respectively.
 
-  6. Pagination:
+  7. Pagination:
 Pagination is implemented to navigate through the list of books.
 
-  7. Toastr Notifications:
+  8. Toastr Notifications:
 Toastr is employed for displaying notifications, such as success messages after adding or updating a book.
 
-  8. JavaScript:
+  9. JavaScript:
 The JavaScript code initializes the application, sets up event listeners, and manages the interaction between the UI and 
 server through AJAX requests.
 
